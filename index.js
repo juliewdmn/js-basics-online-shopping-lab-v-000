@@ -15,3 +15,16 @@ function total() {
 
   return t
 }
+
+var cart = {}
+
+function getCart() {
+  return cart
+}
+
+function addToCart(item) {
+  return math.random(item)
+}
+  for (itemName in cart) {
+  console.log ('${item[cart]} has been added to your cart.')
+}
